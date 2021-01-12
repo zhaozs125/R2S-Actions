@@ -5,12 +5,12 @@
 # Author: zhaozs125
 # Blog: https://yrblog.com
 #=================================================
-name: r2s-master
+name: r2s-main
 
 on:
   push:
     branches: 
-      - master
+      - main
     paths:
       - config/.config
 
