@@ -33,8 +33,8 @@ jobs:
           
     - name: Clone source code
       env: 
-        REPO_URL: https://github.com/Lienol/openwrt
-        REPO_BRANCH: dev-21.02
+        REPO_URL: https://github.com/coolsnowwolf/lede
+        REPO_BRANCH: dev
       run: git clone --depth 1 $REPO_URL openwrt
       
     - name: Clone Config
